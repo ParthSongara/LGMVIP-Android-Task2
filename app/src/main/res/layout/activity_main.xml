@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnOpenCamera"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/button_blue"
+        android:text="@string/opencamera" />
+
+    <ImageView
+        android:id="@+id/imageViewCaptured"
+        android:layout_width="342dp"
+        android:layout_height="295dp"
+        android:layout_above="@+id/btnOpenCamera"
+        android:layout_below="@id/btnOpenCamera"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-374dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="32dp"
+        android:scaleType="fitCenter" />
+
+</RelativeLayout>
